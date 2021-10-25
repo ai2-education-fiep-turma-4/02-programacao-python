@@ -37,11 +37,17 @@ conta1.deposita(500.0)
 conta1.saca(50.0)
 conta1.transfere_para(conta2,150.0)
 conta1.extrato()
+conta1.deposita(230.0)
+conta1.historico.imprime()
 
 print("\n ********************************************** \n")
 conta2.extrato()
 conta2.historico.imprime()
 conta2.transfere_para(conta1, 200.0)
 conta2.historico.imprime()
+conta2.saldo = 100
+conta2.extrato()
+
+#Cliente.__doc__
 
 
