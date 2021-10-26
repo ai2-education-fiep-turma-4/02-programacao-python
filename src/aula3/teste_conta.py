@@ -12,7 +12,8 @@ def saca(conta, valor):
 
 # Função extrato
 def extrato(conta):
-    print("numero: {} \nsaldo: {} \n".format(conta['numero'], conta['saldo']))
+    #print("numero: {} \nsaldo: {} \n".format(conta['numero'], conta['saldo']))
+    print('O número da conta %s possui saldo de %s' %(conta['numero'], conta['saldo']))
 
 
 conta1 = cria_conta('123-1', 'Clayton', 500.0, 1000.0)

@@ -18,37 +18,46 @@ class Historico:
 class Cliente:
     "Essa classe representa informações sobre os dados dos clientes"
     def __init__(self,nome, sobrenome, cpf) -> None:
-        self.nome = nome
-        self.sobrenome = sobrenome
-        self.cpf = cpf
-    
+        self.__nome = nome
+        self.__sobrenome = sobrenome
+        self.__cpf = cpf
+
+    @property
+    def get_nome(self):
+        print('Imprimindo @property nome()')
+        return self._nome.title()
+
+    @nome.setter
+    def set_nome(self, nome):
+        print('Imprimindo @setter nome()')
+        self._nome = nome
 
 class Conta:
     "Essa classe representa informações sobre as contas dos clientes"
     def __init__(self, numero, cliente, saldo, limite=1000.0) -> None:
-        #print('Inicializando a minha conta')
-        self.numero = numero
-        self.cliente = cliente
-        self.saldo = saldo
-        self.limite = limite
+        print("Construindo meu objeto ...{}.format(self)")
+        self._numero = numero
+        self.__cliente = cliente
+        self.__saldo = saldo
+        self.__limite = limite
         self.historico = Historico()
 
     # Função depositar
     def deposita(self,valor):
-        self.saldo += valor
+        self.__saldo += valor
 
 
     # Função sacar
     def saca(self, valor):
-        if (self.saldo < valor):
+        if (self.__saldo < valor):
             return False
         else:
-            self.saldo -= valor
+            self.__saldo -= valor
             return True
 
     # Função extrato
     def extrato(self):
-        print("numero: {} \nsaldo: {} \n".format(self.numero, self.saldo))
+        print("numero: {} \nsaldo: {} \n".format(self._numero, self.__saldo))
 
     def transfere_para(self, destino, valor):
         """ Efetua uma transferência entre contas
@@ -65,7 +74,12 @@ class Conta:
             return False
         else:
             destino.deposita(valor)
-            self.historico.transacoes.append("Transferência de {} para conta {}".format(valor, destino.numero))
+            self.historico.transacoes.append("Transferência de {} para conta {}".format(valor, destino._numero))
             return True
+
+    def get_saldo(self):
+        return self.saldo
+
+    
 
    
