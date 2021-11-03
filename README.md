@@ -5,7 +5,7 @@
 * Aula 3 - Tipos, Classes e Objeto ([Slides](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/blob/master/slides/aula3/02_python_POO.pdf)) ([Exercícios](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/tree/master/exercicios/aula3)).
 * Aula 4 - Herança, Polimorfismo ([Slides](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/blob/master/slides/aula4/04_python_heranca.pdf)) ([Exercícios](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/tree/master/exercicios/aula4)).
 * Aula 5 - Classes Abstratas, Encapsulamento e Exceções ([Slides](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/blob/master/slides/aula5/diagramas.pdf)) ([Exercícios](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/tree/master/exercicios/aula5)).
-* Aula 6 - Listas e Numpy ([Slides](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/blob/master/slides/aula5/06-Numpy.pdf)) ([Código](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/blob/master/src/aula6)) ([Dataset](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/blob/master/src/data)).
+* Aula 6 - Listas e Numpy ([Slides](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/blob/master/slides/aula5/06-Numpy.pdf)) ([Código](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/blob/master/src/aula6)) ([Dataset](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/tree/master/src/aula6/data)).
 
 
 
