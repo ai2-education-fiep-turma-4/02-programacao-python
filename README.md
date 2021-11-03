@@ -7,4 +7,8 @@
 * Aula 5 - Classes Abstratas, Encapsulamento e Exceções ([Slides](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/blob/master/slides/aula5/diagramas.pdf)) ([Exercícios](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/tree/master/exercicios/aula5)).
 * Aula 6 - Listas e Numpy ([Slides](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/blob/master/slides/aula5/06-Numpy.pdf)) ([Código](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/blob/master/src/aula6)) ([Dataset](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/tree/master/src/aula6/data)).
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> bb1e3199cc7f3040dc73aa2c9bfd9e5418fa5421
 
