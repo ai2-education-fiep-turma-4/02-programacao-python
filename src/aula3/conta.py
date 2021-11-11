@@ -27,7 +27,7 @@ class Cliente:
         print('Imprimindo @property nome()')
         return self._nome.title()
 
-    @nome.setter
+    #@nome.setter
     def set_nome(self, nome):
         print('Imprimindo @setter nome()')
         self._nome = nome
