@@ -8,5 +8,8 @@
 * Aula 6 - Listas e Numpy ([Slides](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/blob/master/slides/aula6/06_Numpy.pdf)) ([Código](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/blob/master/src/aula6)) ([Dataset](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/tree/master/src/aula6/data)).
 * Aula 7 - Listas e Numpy 2 ([Slides](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/blob/master/slides/aula7/07-matriz_numpy.pdf)) ([Código](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/blob/master/src/aula7)) ([Dataset](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/tree/master/src/aula7/data)).
 * Aula 8 - Manipulação de dados utilizando Pandas ([Slides](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/blob/master/slides/aula8/08-Pandas.pdf)) ([Exercícios](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/tree/master/exercicios/aula8))([Dataset](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/tree/master/src/aula8/data)) ([Código](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/blob/master/src/aula8))
+<<<<<<< HEAD
 * Aula 9 - Manipulação de dados utilizando Pandas 2 ([Exercícios](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/tree/master/exercicios/aula9))([Dataset](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/tree/master/src/aula8/data)) ([Códigos](https://github.com/ai2-education-fiep-turma-4/02-programacao-python/blob/master/src/aula9))
+=======
+>>>>>>> db636d40d747232c1557f434573702c77d68355f
 
